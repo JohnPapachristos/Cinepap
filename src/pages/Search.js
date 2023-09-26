@@ -11,6 +11,7 @@ export const Search = ({apiPath}) => {
   useTitle(`Search result for ${queryTerm}`);
 
   return (
+    <body className="bg-white dark:bg-black">
     <main>
       <section className="py-7">
         <p className="text-3xl text-gray-700 ">{ movies.length === 0 ? `No result found for '${queryTerm}'` : `Result for '${queryTerm}'` }</p>
@@ -23,5 +24,6 @@ export const Search = ({apiPath}) => {
         </div>
       </section>
     </main>
+    </body>
   )
 }

@@ -10,6 +10,7 @@ export const PageNotFound = () => {
   });
 
   return (
+    <body className="bg-white dark:bg-black">
     <main>
       <section className="flex flex-col justify-center px-2">
         <div className="flex flex-col items-center my-4">
@@ -25,5 +26,6 @@ export const PageNotFound = () => {
         </div>
       </section>
     </main>
+    </body>
   )
 }
